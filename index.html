@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form id="form">
+            <div class="form-inputs">
+                <div class="form-inputs1">
+                    <p>First Name</p>
+                <input style="height: 20px; width: 200px;" type="text" name="firstname">
+                </div>
+                <div class="form-inputs1">
+                    <p>Last Name</p>
+                    <input style="height: 20px; width: 200px;" type="text" name="lastname">
+                </div>
+                <div class="form-inputs1"> 
+                    <p>Address</p>
+                <input style="height: 20px; width: 200px;" type="text" name="address">
+                </div>
+                <div class="form-inputs1">
+                    <p>Pincode</p>
+                    <input style="height: 20px; width: 200px;" type="text" name="pincode">
+                </div>
+                <div class="form-inputs1">
+                    <p>gender : 
+                        <label for="gender" >
+                            <input type="radio" name="gender">male
+                        </label>     
+                        <label for="gender">
+                            <input type="radio" name="gender">female
+                        </label>
+                    </p>
+                </div>
+                <div class="form-inputs1"> 
+                <p>Favourite food : 
+                    <input type="checkbox" name="fried rice">
+                    <label for="food" >fried rice</label> 
+                    <input type="checkbox" name="noodles">    
+                    <label for="food" >noodles </label> 
+                    <input type="checkbox" name="biriyani" >
+                    <label for="food" >biriyani</label> 
+                    <input type="checkbox" name="pasta">
+                    <label for="food" >pasta </label> 
+                    <input type="checkbox" name="roti">
+                    <label for="food" >roti</label> 
+                </p>
+                </div>
+                <div class="form-inputs1">
+                    <p>State
+                        <input style="height: 20px; width: 200px;" type="text" name="state">
+                    </p>
+                </div>
+
+                <div class="form-inputs1">
+                    <p>Country
+                        <input style="height: 20px; width: 200px;" sstype="text" name="country">
+                    </p>
+                </div>
+                <div class="form-inputs1">
+                    <input  class="btn btn-primary" type="submit"  value="Submit">
+                </div>
+               
+            </div> 
+        </form>
+        <table class="table caption-top" style="margin-top: 40px;">
+           
+        <thead>
+            <tr>
+            
+              <th scope="col">content</th>
+              <th scope="col">description</th>
+             
+            </tr>
+          </thead>
+          <tbody id="table-content">
+          </tbody>
+        </table>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
